@@ -15,4 +15,5 @@ elif scelta == 3:
     raggio=float(input("Inserisci il valore del raggio: "))
     print("La circonferenza del cerchio é:", 2 * math.pi * raggio)
 else:
-    ValueError("scelta non valida")
+    print(ValueError("scelta non valida"))
+     
