@@ -11,6 +11,8 @@ elif scelta == 2:
     base=float(input("Inserisci la base del rettangolo: "))
     altezza=float(input("Inserisci l'altezza del rettangolo: "))
     print("Il perimetro del rettangolo é:", 2* base + 2 *altezza)
-elif scelta ==3:
+elif scelta == 3:
     raggio=float(input("Inserisci il valore del raggio: "))
     print("La circonferenza del cerchio é:", 2 * math.pi * raggio)
+else:
+    ValueError("scelta non valida")
